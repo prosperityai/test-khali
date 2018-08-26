@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    font-family: 'GothamMedium';
+}
+
+.container {
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.drawer {
+    width: 200px;
+    padding: 20px;
+    color: #1B1A1E;
+}
+
+.drawer-item {
+    cursor: pointer;
+}
+
+.navbar {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    line-height: 120px;
+    background: #1B1A1E;
+}
+
+.navbar .nav-logo {
+    height: 20px;
+    width: auto;
+    display: inline-block;
+}
+
+.navbar .nav-items {
+    position: absolute;
+    right: 10%;
+    display: inline-block;
+}
+
+.navbar .nav-items > ul {
+    list-style: none;
+    margin: 0;
+}
+
+.navbar .nav-items > ul > li {
+    float: right;
+    margin: 0 10px;
+}
+
+.hero {
+    background-image: url('../../assets/landing-background.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 42em;
+    color: white;
+}
+
+.hero .hero-view {
+    padding-top: 4px;
+}
+
+.hero .hero-image {
+    width: auto;
+    height: 550px;
+}
+
+.hero .hero-text {
+    font-size: 5em;
+    font-weight: bolder;
+    line-height: 1em;
+}
+
+.hero .hero-button {
+    background: #00bff3;
+    color: #FFF;
+    padding: 11px;
+    border-radius: 0;
+    margin-left: 10px;
+}
+
+.hero .hero-input {
+    background: transparent;
+    padding: 10px 10px;
+    width: 200px;
+    height: 40px;
+    border: inset !important;
+    border-color: #fff !important;
+    border-width: 0.5px !important;
+    display: inline-block;
+    color: #fff;
+}
+
+.hero .hero-input::placeholder {
+    color: #fff;
+    font-family: 'GothamMedium';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.feature-view {
+    position: relative;
+    height: 30em;
+    background-image: url('../../assets/box2-background-overlay.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.feature-view p{
+    color: #fff;
+}
+
+.feature-view .wrap-middle {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.feature-view .feature-item {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.feature-view .feature-item > .feature-avatar {
+    height: 90px;
+    width: auto;
+}
+
+.feature-view .feature-item > .feature-title {
+    text-transform: uppercase;
+    margin-top: 32px;
+}
+
+.feature-view .feature-item > .feature-info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 30px 0;
+}
+
+.feature-info > .feature-info-tablet {
+    font-size: 11px;
+}
+
+.feature-title > .feature-title-tablet {
+    font-size: 12px;
+}
+
+.updates-view {
+    padding: 50px 0;
+}
+
+.updates-view > .grid-item {
+    padding: 10px;
+}
+
+.updates-view hr {
+    background-color: rgba(128, 128, 128, 0.2);
+    height: 0.8px;
+}
+
+.updates-view .updates-sexiest-workouts {
+    margin: 40px 0 20px 0;
+}
+
+.updates-sexiest-workouts-img {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-item .updates-grid-title {
+    text-transform: uppercase;
+    color: #2C2C2C;
+}
+
+.grid-item .updates-grid-item-title {
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+
+.grid-item .updates-grid-item-info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: gray;
+    margin: 5px 0;
+    letter-spacing: 0.7px;
+    line-height: 22px;
+}
+
+.grid-item .updates-grid-info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: gray;
+    margin: 40px 0;
+    letter-spacing: 0.7px;
+    line-height: 22px;
+}
+
+.grid-item .updates-grid-button {
+    margin: 2px 0;
+}
+
+.grid-item .updates-grid-camp-item {
+    margin: 50px 0 0 0;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
